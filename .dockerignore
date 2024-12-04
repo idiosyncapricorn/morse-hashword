@@ -1,0 +1,31 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore log files
+*.log
+
+# Ignore local config files
+*.env
+
+# Ignore node_modules, if using Node.js
+node_modules/
+
+# Ignore build outputs
+build/
+dist/
+*.egg-info/
+
+# Ignore Docker files that should not be copied
+Dockerfile*
+docker-compose.yml
+
+# Ignore system files
+.DS_Store
+*.swp
+Thumbs.db
